@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+*{
+	font-family: 'Poppins';
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #F6F8FD;
+}
+
+body .form-login{
+	background-color: #FFFFFF;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	border-radius: 16px;
+}
+
+body .form-login h3{
+	text-align: left;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+body .form-login input{
+	margin-bottom: 20px;
+	width: 400px;
+	height: 40px;
+	padding-left: 20px;
+	background-color: #E5E9F2;
+	border: none;
+	border-radius: 50px;
+	font-weight: 600;
+}
+
+body .form-login p{
+	text-align: right;
+	margin-top: -8px;
+	margin-bottom: 35px;
+}
+
+body .form-login p .link-lupa-password{
+	text-decoration: none;
+	color: #999aa4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body .form-login p .link-lupa-password:hover{
+	text-decoration: none;
+	color: blue;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body .form-login .btn-login{
+	width: 100%;
+	border: 0px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #2447F9;
+	color: #FFF;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+body .form-login a .btn-regis{
+	margin-top: 18px;
+	margin-bottom: 20px;
+	width: 100%;
+	border: 0px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #E5E9F2;
+	color: #000;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+body .form-login hr {
+    color: #E5E9F2; /* Warna garis */
+    background-color: #E5E9F2; /* Warna latar belakang garis */
+    height: 1px; /* Tinggi garis */
+    border: none; /* Hapus border default */
+}
+
+body .form-login a .btn-google{
+	margin-top: 18px;
+	width: 100%;
+	border: 0px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #34364A;
+	color: #FFF;
+	font-weight: 700;
+	cursor: pointer;
+}
